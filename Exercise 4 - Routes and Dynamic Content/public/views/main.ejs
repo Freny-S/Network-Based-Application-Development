@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/assets/stylesheets/styles.css">
+</head>
+<body>
+	<% include image.ejs  %>
+     <table id="student">
+  <tr>
+    <td>Full Name</td>
+    <td>Degree</td>
+    <td>Program</td>
+  </tr>
+  <tr>
+    <td><%= student.firstName %> <%= student.lastName %></td>
+    <td><%= student.degree %></td>
+    <td><%= student.program %></td>
+  </tr>
+</table>
+</body>
+</html>
